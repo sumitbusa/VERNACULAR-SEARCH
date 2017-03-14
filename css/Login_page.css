@@ -1,0 +1,89 @@
+/*login layout*/
+#insidebox
+		{
+			height:40px;
+			width:250px;
+			font-size:15px;
+		}
+img
+		{
+			height:90px;
+			width:85px;
+			border-radius: 50%;
+		}
+th
+		{
+			height:45px;
+			width:100%;
+		}
+.submit_effect
+		{
+			position: relative;
+			color: rgba(255,255,255,1);
+			text-decoration: none;
+			cursor:pointer;
+			background: #36f;
+			font-family: 'Vendor';
+			font-weight: 700;
+			font-size: 22px;
+			display: block;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			padding-bottom:10px;
+			margin: 20px ;
+			width: 240px;
+			text-align: center;
+			-webkit-transition: all .1s ease;
+			-moz-transition: all .1s ease;
+			-ms-transition: all .1s ease;
+			-o-transition: all .1s ease;
+			transition: all .1s ease;
+		}
+.submit_effect:active 
+		{
+			position: relative;
+			top: 6px;
+		}	
+#container_login	
+		{
+			float:right;
+			z-index: -10;
+			border:0px groove;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			 border-radius: 8px;
+			 height:400px;
+			 width:300px;
+			background-color : #FFFFFF;
+			opacity:0.9;
+			box-shadow: 3px 3px 3px 2px #000;
+		}
+a:link    /* unvisited link */ 	
+{
+	color:#00A9FF;
+	text-decoration: none;
+	font-family:'vendor';
+	float:left;
+}
+a:visited /* visited link */
+{
+	color:red;
+	text-decoration: none;
+	font-family:'vendor';
+	float:left;
+}
+a:hover /* mouse over link */
+{
+	color: #00A9FF;
+	text-decoration: underline;
+	font-family:'vendor';
+	float:left;
+}
+a:active /* selected link */
+{
+	color: red;
+	text-decoration: none;
+	font-family:'vendor';
+	float:left;
+}

@@ -1,0 +1,128 @@
+#searchcontrol
+		{
+			position:relative;
+			background:#fff;
+			float:right;
+			font-size:17px;
+			clear:both;
+			width:80%;
+			display:block;
+			margin-top:20px;
+		}
+/*copypaste*/
+/* Add a border between individual search results */
+.gsc-control {
+    width: 300px;
+}
+.gs-webResult
+	{
+		width:250%;
+		padding: 15px 15px 15px 15px;
+		color:#000;
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+.gs-webResult:hover
+	{
+		color:#000;
+		background:#ddd;
+	}
+
+/* Do no display the count of search results */    
+.gsc-result-info 
+	{
+     display: none; 
+	}
+
+/* Hide the Google branding in search results */
+.gcsc-branding 
+	{
+		display: none; 
+	}
+
+/* Hide the thumbnail images in search results */
+.form .gsc-thumbnail 
+	{
+		display:none;
+	}
+
+/* Hide the snippets in Google search results */
+.gs-snippet 
+	{ 
+
+	}
+
+/* Change the font size of the title of search results */
+.gs-title a
+	{ 
+		font-size: 20px;  
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+
+/* Change the font size of snippets inside search results */
+.gs-snippet 	
+	{
+		font-size: 15px;
+	}
+
+/* Google Custom Search highlights matching words in bold, toggle that */
+.gs-title b, .gs-snippet b
+	{
+		font-weight: normal;
+	}
+
+/* Do no display the URL of web pages in search results */
+.gsc-url-top, .gsc-url-bottom 
+	{
+		display: none;
+		float:right;
+	}
+ input.gsc-search-button, input.gsc-search-button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    padding: 0px 8px;
+    height: 30px;
+    min-width: 154px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    background: none repeat scroll 0% 0% orange;
+    transition: all 0.5s ease 0s;
+}
+ input.gsc-search-button:hover,
+input.gsc-search-button :hover
+	{
+		color:#222;
+		opacity:0.8;
+		cursor:pointer;
+		transform:scale(1.1);
+	}
+table.gsc-search-box {
+    border-style: none;
+    border-width: 0px;
+    border-spacing: 0px;
+    width: 102.25%;
+    margin-bottom: 2px;
+}
+input.gsc-input
+ {
+	border:2px groove #000;
+	margin-right:400px;
+	height:25px;
+	font-size:16px;
+	width:2500px;
+	}
+form.gsc-search-box {
+    font-size: 13px;
+    margin: 0px 0px 4px;
+    width: 500px;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page /*For cursor Links to next page*/
+		{
+		width:auto;
+		}
+.gsc-clear-button
+	{
+		display:none;
+	}

@@ -1,0 +1,147 @@
+#header
+	{
+		z-index:50;
+		position:fixed;
+		height:8%;
+		width:100.25%;
+		left:0px;
+		top:0px;
+		border-bottom:1px solid #EEE;
+	}
+#header_blank
+	{
+		position:relative;
+		height:8%;
+		width:100.25%;
+		left:0px;
+		top:-10px;
+	}
+#blank_logo
+	{
+		float:left;
+		height:100%;
+		width:2%;
+	}
+#logo_pic
+	{
+		float:left;
+		height:100%;
+		width:15%;
+	}
+
+#logo_pic_1
+	{
+		float:left;
+		height:100%;
+		width:55%;
+		border-radius: 10px 10px 10px 10px;
+	}
+#blank_menu
+	{
+		float:left;
+		height:38%;
+		width:83%;
+		background-color:#FFF;
+	}
+#menu_div
+	{
+		position:fixed;
+		cursor:pointer;
+		margin: 0px;
+		padding: 0px;
+		font-size: 14px;
+		display: inline-block;
+		position: relative;
+		color: #555;
+		line-height: 35px;
+		transition: background-color 0.2s ease 0s;
+		outline: medium none;
+		background-clip: border-box;
+		border-radius: 3px 3px 0px 0px;
+		float:left;
+		height:60%;
+		width:15%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		/*border: 1px solid;*/
+		background-color:#FFF;
+		/*border-color: #45606f;*/
+	}
+#menu_div_home
+	{
+		position:fixed;
+		cursor:pointer;
+		margin: 0px;
+		padding: 0px;
+		font-size: 14px;
+		display: inline-block;
+		position: relative;
+		color:#555;
+		line-height: 35px;
+		transition: background-color 0.2s ease 0s;
+		outline: medium none;
+		background-clip: border-box;
+		border-radius: 3px 3px 0px 0px;
+		float:left;
+		height:60%;
+		width:15%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		/*border: 1px solid;*/
+		/*background-color:#45606f;
+		border-color: #45606f;*/
+		font-weight:800px;
+	}
+#menu_div_home:hover	
+		{
+			background-color:#EEE;
+			color:#45606f;
+		}
+#menu_div:hover
+	{
+		-webkit-transition: color .2s linear;
+		-moz-transition: color .2s linear;
+		transition: color .2s linear;
+		background-color:#EEE;
+		color:#45606f;
+	}
+#blank_between_menu
+	{
+		float:left;
+		height:60%;
+		width:20%;
+	}
+#login_part
+	{
+		z-index:50;
+		cursor:pointer;
+		font-size: 14px;
+		color:#222;
+		line-height: 75px;
+		outline: medium none;
+		background-clip: border-box;
+		border-radius: 8px;
+		float:right;
+		top:10%;
+		height:10%;
+		width:10%;
+		position:fixed;
+		right:20px;
+		/*border-bottom-left-radius: 25px; */
+		background:rgba(255,255,255,0.5);
+		transition:all .5s ease;
+	}
+a
+	{
+		text-decoration: none;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+		
+	}
+#login_part:hover
+	{
+		transform:scale(1.2);
+		border:1px solid #000;
+		background:#ddd;
+		opacity:0.4;
+		color:#45606f;
+	}

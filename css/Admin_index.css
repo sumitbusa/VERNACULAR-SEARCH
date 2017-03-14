@@ -1,0 +1,73 @@
+/*Admin_index.css*/
+#navigation_bar
+	{
+		position:fixed;
+		float:right;
+		right:0px;
+		height:220px;
+		width:200px;
+	}
+#blank_div_navigation
+	{
+		float:right;
+		right:opx;
+		height:120px;
+		width:200px;
+	}
+#blank_div_main
+	{
+		float:left;
+		left:0px;
+		height:auto;
+		width:auto;
+		border-radius: 0em 0em 1em 1em;
+		padding: 10px 100px 10px 100px;
+		box-shadow: 0px 2px 0px 0px #000;
+		background-color:#FFFFFF;
+		margin-left:100px;
+	}
+#steps_part
+	{
+		position:relative;
+		float:left;
+		left:20px;
+		height:80%;
+		width:50%;
+		margin-left:220px;
+	}
+#next_button_part
+	{
+		float:left;
+		height:80%;
+		width:50%;
+		margin-left:220px;
+	}
+#blank_num_div
+	{
+		float:left;
+		height:10%;
+		width:100%;
+		margin-left:220px;
+	}
+#number_div
+	{
+		float:left;
+		height:50px;
+		width:50px;
+		font-size:25;
+		color:green;
+		border-radius: 50%;
+		background-color:orange;
+		padding: 12px 15px 1px 15px;
+		box-shadow: 2px 2px 2px 0px #000;
+	}
+#container_text
+	{
+		float:left;
+		height:auto;
+		width:auto;
+		background-color:gray;
+		padding: 1px 8px 4px 80px;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 2px 2px 2px 0px #000;
+	}

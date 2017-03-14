@@ -1,0 +1,51 @@
+
+#container
+	{
+		float:right;
+		right:0px;
+		height:100px;
+		width:200px;
+	}
+#image_div_operlap
+	{
+		float:right;
+		right:-10px;
+		height:55px;
+		width:55px;
+	}
+#image_div
+	{
+		float:right;
+		right:0px;
+		height:55px;
+		width:55px;
+	}
+#image_div img
+	{
+		height:55px;
+		width:55px;
+		cursor:pointer;
+		transition-delay: 3s;
+	}
+#image_div img:hover
+	{
+		-webkit-transition-delay: 2s; /* Safari */
+		transition-delay: 3s;
+	}
+#cantaine_div
+	{
+		float:right;
+		height:auto;
+		width:auto;
+		padding: 9px 20px 4px 20px;
+		-moz-border-radius: 4em 1em 4em 1em;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 1px 1px 1px 0px #000;
+		background-color:#FFFFFF;
+	}
+#blank_div_up
+	{
+		float:right;
+		height:35px;
+		width:125px;
+	}

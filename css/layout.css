@@ -1,0 +1,61 @@
+body
+	{
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+#video_blank
+	{
+		float:left;
+		height:100%;
+		width:8%;
+		
+	}
+#video_blank_1
+	{
+		float:left;
+		height:10%;
+		width:92%;
+	}
+#container
+	{
+		float:left;
+		height:80%;
+		width:55%;
+	}
+#video
+	{
+		cursor:pointer;
+		float:left;
+		height:85%;
+		width:92%;
+	}
+#login_form
+	{
+		float:right;
+		right:0px;
+		height:75%;
+		width:45%;
+	}
+#blank_div_login
+	{
+		float:right;
+		right:0px;
+		height:10%;
+		width:100%;
+	}
+#blank_div_login_2
+	{
+		float:right;
+		right:0px;
+		height:90%;
+		width:20%;
+	}
+#footer
+	{
+		position:relative;
+		float:left;
+		left:-12px;
+		height:14%;
+		width:102.25%;
+		background-color:#EEE;
+	}

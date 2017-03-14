@@ -1,0 +1,82 @@
+#insidebox
+		{
+			float:left;
+			height:30px;
+			width:220px;
+			font-size:15px;
+		}
+th
+		{
+			height:50px;
+			font-size:20px;
+		}
+
+select	
+		{
+		font-size:20px;
+		}
+.submit_effect
+		{
+			position: relative;
+			color: rgba(255,255,255,1);
+			text-decoration: none;
+			cursor:pointer;
+			font-family:"Comic Sans MS", cursive, sans-serif;
+			background: #36f;
+			font-weight: 700;
+			font-size: 20px;
+			display: block;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			padding-bottom:10px;
+			margin: 10px ;
+			width: 240px;
+			text-align: center;
+			-webkit-transition: all .1s ease;
+			-moz-transition: all .1s ease;
+			-ms-transition: all .1s ease;
+			-o-transition: all .1s ease;
+			transition: all .1s ease;
+		}
+.submit_effect:active 
+		{
+			position: relative;
+			top: 6px;
+		}	
+#container	
+		{	
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			font-family:"Comic Sans MS", cursive, sans-serif;
+			height:550px;
+			padding-top:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			padding-left:20px;
+			float:left;
+			border: 2px groove ;
+			/*background-color:#ddd;*/
+			}
+a
+		{
+		color:Red;
+		float:left;
+		}
+#formheadedit
+				{
+				height:100%;
+				width:100%;
+				color:#555;
+				font-size:25px;
+				-webkit-border-radius: 8px;
+				-moz-border-radius: 8px;
+				border-radius: 8px;
+				}
+#blank
+	{
+		height:5%;
+		width:100%;
+	}
+	

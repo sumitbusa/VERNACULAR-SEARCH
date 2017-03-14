@@ -1,0 +1,13 @@
+#searchcontrol
+	{
+		top:0px;
+		float:right;
+		right:0px;
+		width:50%;
+	}
+#blank
+	{
+		float:left;
+		height:100%;
+		width:25%;
+	}

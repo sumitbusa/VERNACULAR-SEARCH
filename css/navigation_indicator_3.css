@@ -1,0 +1,45 @@
+/*navigation_indicator_3.css*/
+#number_div
+	{
+		float:left;
+		height:50px;
+		width:50px;
+		font-size:25;
+		color:green;
+		border-radius: 50%;
+		background-color:orange;
+		padding: 12px 15px 1px 15px;
+		box-shadow: 2px 2px 2px 0px #000;
+	}
+#number_div_1
+	{
+		float:left;
+		height:50px;
+		width:50px;
+		font-size:25;
+		color:#FFFFFF;
+		border-radius: 50%;
+		background-color:gray;
+		padding: 12px 15px 1px 15px;
+		box-shadow: 2px 2px 2px 0px #000;
+	}
+#blank
+	{
+		float:left;
+		height:26px;
+		width:100%;
+		background-color:#FFFFFF;
+	}
+#line_div
+	{
+		float:left;
+		height:5px;
+		width:100%;
+		background-color:#333;
+	}
+#main_part
+	{
+		float:left;
+		height:70px;
+		width:200px;
+	}

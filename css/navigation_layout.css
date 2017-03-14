@@ -1,0 +1,41 @@
+/*navigation bar */
+#right_part
+	{
+		height:55px;
+		width:55px;
+		float:right;
+		right:0px;
+	}
+#management_nav
+	{
+		left: 0;
+	}
+#left_transition
+{
+	height:50px; 
+	position:fixed; 
+	width:50px; 
+	z-index:50;   
+	transition-property: width;
+    transition-duration:0.5s;
+    transition-timing-function: linear;
+    transition-delay:0s;
+	border:0px solid #100023;
+	opacity:0.89;
+	cursor:pointer;	
+}
+#left_transition:hover
+{
+	width:auto;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	font-size:20px;
+	color:#000;
+	box-shadow: 1px 1px 1px 0px #000;
+}
+#left_transition img
+{
+	opacity:1;
+	height:50px;
+	width:50px;
+}

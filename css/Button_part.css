@@ -1,0 +1,50 @@
+/* Add Button Part */
+#Button_part
+	{
+		float:left;
+		height:5%;
+		width:30%;
+	}
+#Delete_Button
+	{
+		float:left;
+		height:100%;
+		width:80;
+		padding: 9px 20px 4px 20px;
+		-moz-border-radius: 4em 1em 1em 4em;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 1px 1px 1px 0px #000;
+	}
+#Delete_Button p
+	{
+		padding: 0px 20px 4px 20px;
+	}
+img
+	{
+		float:left;
+		height:100%;
+		width:50%;
+	}
+img:hover
+	{
+		cursor:pointer;
+		float:left;
+		height:100.25%;
+		width:60.25%;
+	}
+#blank_part
+	{
+		float:left;
+		height:100%;
+		width:30%;
+	}
+#Add_Button
+	{
+		float:left;
+		height:100%;
+		width:80;
+		padding: 9px 20px 4px 20px;
+		-moz-border-radius: 4em 1em 4em 1em;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 1px 1px 1px 0px #000;
+	}

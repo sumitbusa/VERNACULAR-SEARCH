@@ -1,0 +1,16 @@
+#sign_out_container
+	{
+		z-index:50;
+		position:fixed;
+		float:right;
+		right:0px;
+		height:auto;
+		width:auto;
+		box-shadow: 1px 1px 1px 0px #000;
+		display:none;
+		background-color:#EEE;
+	}
+a
+	{
+		text-decoration: none;
+	}

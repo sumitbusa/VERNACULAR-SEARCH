@@ -1,0 +1,82 @@
+/*Login_table.css*/
+#table_part
+	{
+		margin-top:-250px;
+		position:relative;
+		float:left;
+		top:0px;
+		height:70%;
+		width:54%;
+		margin:250px;
+	}
+#upper_blank_part
+	{
+		margin-top:-250px;
+		position:relative;
+		float:left;
+		height:15%;
+		width:100%;
+		
+	}
+#main_table
+	{
+		margin-top:-190px;
+		float:left;
+		height:5%;
+		width:100%;
+		
+	}
+#blank_div
+	{
+		float:left;
+		height:90%;
+		width:3%;		
+	}
+th
+	{
+		background-color:gray;
+	}
+table	
+	{
+		height:8px;
+		width:700px;
+		text-align: left;
+		border-collapse: collapse;
+		text-align: center;
+	}
+#add_account
+	{
+		cursor:pointer;
+		float:left;
+		height:auto;
+		width:auto;
+		color:black;
+		background-color:gray;
+		padding: 9px 20px 4px 20px;
+		-moz-border-radius: 4em 1em 1em 4em;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 1px 1px 1px 0px #000;
+	}
+#blank_space
+	{
+		float:left;
+		height:20px;
+		width:100;
+	}
+#blank_space_before
+	{
+		float:left;
+		height:20px;
+		width:350;
+	}
+input[type=submit]
+	{
+		cursor:pointer;
+		float:left;
+		height:auto;
+		width:auto;
+		padding: 9px 20px 4px 20px;
+		-moz-border-radius: 4em 1em 1em 4em;
+		border-radius: 4em 1em 4em 1em;
+		box-shadow: 1px 1px 1px 0px #000;
+	}

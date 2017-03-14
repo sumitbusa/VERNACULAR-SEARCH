@@ -1,0 +1,99 @@
+/* Admin_setting.css */
+/*#main_part
+	{
+		position:fixed;
+		left:0px;
+		top:0px;
+		height:100%;
+		width:102.25%;
+		background-color:#333;
+	}*/
+#detail_part
+	{
+		position:fixed;
+		float:left;
+		top:50px;
+		left:0px;
+		height:95%;
+		width:23%;
+		 box-shadow: 10px 10px 5px #888888;
+		/*background-color:gray;*/
+	}
+#blank_detail_part
+	{
+		float:left;
+		left:-10px;
+		height:80%;
+		width:23%;
+		background-color:#FFFFFF;
+	}
+#blank_space_part
+	{
+		float:left;
+		height:15%;
+		width:100%;
+	}
+#Link_div
+	{
+		float:left;
+		height:auto;
+		width:auto;
+		cursor:pointer;
+		background-color:#FFFFFF;
+		padding: 10px 70px 10px 80px;
+		-moz-border-radius: 1em 4em 1em 4em;
+		border-radius: 1em 1em 1em 4em;
+		box-shadow: 2px 2px 2px 1px #000;
+	}
+#Link_div_DD
+	{
+		float:left;
+		height:auto;
+		width:auto;
+		cursor:pointer;
+		background-color:#FFFFFF;
+		padding: 10px 50px 10px 80px;
+		-moz-border-radius: 1em 4em 1em 4em;
+		border-radius: 1em 1em 1em 4em;
+		box-shadow: 2px 2px 2px 1px #000;
+	}
+a
+	{
+		text-decoration: none;
+	}
+#Link_div:hover
+	{
+		box-shadow: 3px 3px 3px 2px #000;
+	}
+#Link_div:visited
+	{
+		background-color:gray;
+	}
+#Link_div_DD:hover
+	{
+		box-shadow: 3px 3px 3px 2px #000;
+	}
+#blank_div_between_link
+	{
+		float:left;
+		height:8%;
+		width:100%;
+	}
+#blank_div_between_link_user_data_back
+	{
+		float:left;
+		height:15%;
+		width:95%;
+	}
+#back_button
+	{
+		float:left;
+		height:auto;
+		width:auto;
+		cursor:pointer;
+		background-color:orange;
+		padding: 5px 40px 3px 50px;
+		-moz-border-radius: 1em 4em 1em 4em;
+		border-radius: 1em 1em 1em 1em;
+		box-shadow: 2px 2px 2px 1px #000;
+	}

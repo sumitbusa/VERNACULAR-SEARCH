@@ -1,0 +1,64 @@
+#Unavailable
+		{
+			height:100%;
+			width:100%;
+			margin-top:275px;
+			
+		}
+font
+		{
+			
+			color:red;
+			font-size:25px;
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+#Available
+		{
+			height:100%;
+			width:100%;
+		}
+#inputeffect
+			{
+				
+				color:#36f;
+				width:250px;
+				height:30px;
+				font-family:"Comics Sans MS",cursive,sans-serif;
+				font-size:20px;
+			}
+#submiteffect
+			{
+				margin-left:20px;
+				margin-top:20px;
+				border:1px bold #000;
+				border-radius:8px;
+				color:#FFF;
+				height:50px;
+				width:125x;
+				font-size:15px;
+				transition:all 0.5px ease;
+				background:rgba(255,255,255,0);
+				font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			}
+#submiteffect:hover		
+		{
+			transform:scale(1.1);
+			cursor:pointer;
+		}
+img
+		{
+			zoom:1.5;
+		}
+#meaningpart
+		{
+			margin-top:-375px;
+			border-style:solid;
+			margin-left:100px;
+			margin-right:100px;
+			opacity:0.9;
+			border-radius:8px;
+			padding: 40px 0px 40px 0px;
+		}
+
+
+		
